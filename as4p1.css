@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+#div1 {
+  font-size:48px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color:white;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  border: 10px solid;
+}
+
+
+p {
+  border: 10px solid;
+}
+
+.column.row{
+  width: 100%;
+  text-align:left;
+font-size: 14px;
+  background-color:yellow;
+  border: 20px solid;
+}
+
+.column.middle {
+  width: 100%;
+font-size: 14px;
+  background-color:red;
+  border: 10px solid;
+  height: 300px;
+}
+
+#bottom{
+	text-align:center;
+	height:600px;
+	clear:both;
+  border: 10px solid;
+font-size: 14px;
+  background-color:yellow;
+
+}
